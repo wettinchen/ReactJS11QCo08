@@ -1,3 +1,49 @@
+## ReactJS Chapter 11
+It is my coding practice with the TUTORIAL of Dave Gray. 
+
+## Source
+### Dave Gray 的 Reactjs 課程
+https://youtube.com/playlist?list=PL0Zuz27SZ-6PrE9srvEn8nbhOOyxnWXfp
+### Dave Gray 的 YouTube 頻道
+https://www.youtube.com/@DaveGrayTeachesCode
+
+## ReactJS Chapter 11
+   Quick Concept outline
+   中文摘要說明與重點提問
+   
+###  1. Intro 
+        教學影片固定的開頭和摘要說明
+
+###  2. Set up
+        設定
+
+###  3. useEffect hook with no dependencies <Code更動>
+        匯入 useEffect 並使用 useEffect
+
+###  4. useEffect hook at app load <Code更動>
+        設定一個 空的 Array 為 dependency，表示在 app 只會在這個時候載入
+
+###  5. useEffect hook only when a dependency changes <Code更動>
+        在 Array 加入 items，觀察列表更新的變動。
+
+###  6. useEffect is not synchronous <Code更動>
+        用一個在 useEffect 前和一個在 useEffect 後的 console.log，
+        說明 useEffect不具同步性。
+        在 Search Item 輸入文字，觀察對話框重新呈現的結果。
+
+###  7. Loading data with useEffect <Code更動>
+        用 useEffect 載入資料
+       
+###  8. Avoid this BIG mistake with useEffect <Code更動>
+        避免無止盡的迴圈
+
+###  9. Avoiding a loading error with useState <Code更動>
+        避免列表因為沒有項目而導致載入錯誤。
+
+### 10. Saving data with useEffect <Code更動>
+        用 useEffect 儲存資料
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
